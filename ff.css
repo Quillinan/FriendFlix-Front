@@ -1,0 +1,104 @@
+
+body{
+	background-color: #1b262c;
+	background-repeat: repeat;
+}
+
+a{
+	text-decoration: none;
+}
+
+.Navbar{
+	font-family: "Bangers";
+	letter-spacing: 3px;
+	color: #bbe1fa;
+	border: solid #3282b8;
+	background-color: #3282b8;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logo{
+	font-size: 38px;
+	margin-left: 25px;
+}
+
+.Catálogo{
+	font-family: "Bangers";
+	background-color: #0f4c75;
+	border: none;
+  color: #bbe1fa;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+	margin-right: 20px;
+}
+
+.botao{
+	background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 18px 35px;
+	text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+	font-family: "Bangers";
+}
+.b{
+	margin-left: 150px;
+}
+
+
+#cont1{
+	display: grid;
+	grid-template-columns: repeat(2,50%);
+	grid-template-rows: repeat(1,100%);
+	background-color: #0f4c75;
+	justify-items: center;
+	align-items: center;
+	background-color: #1b262c;
+}
+
+.conteudo{
+	background-color: #0f4c75;
+	margin-top: 100px;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.frasecont1{
+	color: #bbe1fa;
+	font-size: 30px;
+	font-family: "Lobster";
+	margin-left: 40px;
+}
+.frasecont2{
+	color: #bbe1fa;
+	font-size: 30px;
+	font-family: "Lobster";
+	margin-right: 40px;
+}
+
+.subtexto1{
+	font-size: 20px;
+	margin-left: 80px;
+}
+.subtexto2{
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+
+#cont6{
+	color: #bbe1fa;
+	background-color: #3282b8;
+	font-size: 30px;
+}
+.duv{
+	margin-left: 20px;
+}
